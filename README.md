@@ -1,0 +1,1 @@
+Voor elk project kregen we per groepje een aantal coins. Om dit makkelijk te verwerken moesten wij een ranking website maken van alle studenten wie dan de meeste coins zou hebben. Ook kun je de coins toevoegen en kun je "inloggen".

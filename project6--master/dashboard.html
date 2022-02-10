@@ -1,0 +1,67 @@
+ 
+ <!--============Creator and changes of page==================-->
+ 
+ <!--  Doctype: dashboard.html
+   Author: Runa Koekkoek
+   Date of creation: 04-12-2019
+   Last change: 09-12-2019
+  -->
+ 
+<!DOCTYPE html>
+
+<!--==========================Head============================-->
+  <head>
+    <link REL="shortcut icon" type="image/png" href="favicon.ico">             <!--Added the vista logo as a favicon-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />                    
+    <link rel="stylesheet" href="./main.css" />                                <!--Added stylesheet-->                       
+    <title>Vista coins ranking table</title>
+  </head>
+  <body>
+        <nav>
+                <ul class="nav-links">                                           <!--Navigation bar-->    
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="dashboard.html">Dashboard</a></li>
+                  <li><a href="login.html">Login</a></li>
+                </ul>
+        </nav>
+
+<!--==========================Register Form====================-->
+
+    
+        <form action="/action_page.php">
+          <div class="container">                                                <!--Start of container-->
+            <h1>Vista Coin Register</h1>
+            <center>
+            <p>You can register Vista Coins per student in this form.</p>
+            </center>
+            <hr>
+                                                         
+            <label for="student number"><b>Student Number</b></label>            <!--Text boxes for registration -->  
+            <input type="text" placeholder="Enter Student Number" name="number" required>
+            <label for="class name"><b>Class Name</b></label>
+            <input type="text" placeholder="Enter Class Name" name="number" required>
+            <label for="project number"><b>Project Number</b></label>
+            <input type="text" placeholder="Enter Number of Project" name="class" required>
+            
+<!--==========================Option menu======================-->
+
+            <hr>
+            <p>Select the number of Vista Coins:</p>                             <!--Vista Coins option menu-->  
+            <select>
+              <option value="1">1</option>
+              <option value="3">3</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+            </select>
+        
+            <button type="submit" class="registerbtn">Register</button>          <!--Register button-->  
+          </div>
+          
+          <div class="container signin">                                         <!--End of container-->
+          </div>
+        </form>
+        
+      </body>
+      </html>
